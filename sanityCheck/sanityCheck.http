@@ -1,0 +1,6 @@
+@sanityCheck_HostAddress = http://localhost:5181
+
+GET {{sanityCheck_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
